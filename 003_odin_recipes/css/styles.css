@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+    margin-left: auto;
+    padding: 20px;
+}
+h1, h2, h3, a{
+    font-family: "Lucida Handwriting", sans-serif;
+    text-align: center;
+    padding: auto;
+    color: white;
+    background-color: #004080;
+}
+img {
+    display: block;
+    margin: auto;
+}
