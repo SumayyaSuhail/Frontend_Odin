@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid brown;
+    width: 960px;
+    height: 960px;
+}
+
+.cell {
+    border: 1px solid #d69c9c;
+    background-color: rgb(255, 255, 255)
+}
+
+button {
+    background-color: #ad866e;
+    color: brown;
+}
+
+button:hover {
+    background-color: brown;
+    color: ad866e;
+}
