@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="calc-display">0</div>
+
+      <div class="buttons-grid">
+        <button class="clear" id="clear-btn">C</button>
+        <button class="operator" data-op="/">/</button>
+        <button class="operator" data-op="*">*</button>
+
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button class="operator" data-op="-">-</button>
+
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="operator" data-op="+">+</button>
+
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+        <!-- Step 4: Equals button included -->
+        <button class="equals" id="equals-btn">=</button>
+
+        <button class="digit" style="grid-column: span 3">0</button>
+        <button class="digit">.</button>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
